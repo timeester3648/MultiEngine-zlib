@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="contrib">
+      <UniqueIdentifier>{16D079D3-82AF-F86E-8BC7-8345F7255FD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\blast">
+      <UniqueIdentifier>{5BC4E32D-C784-5F64-90BF-A8E1FC3EA440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\infback9">
+      <UniqueIdentifier>{ACE8DD0C-98E1-FC5E-C113-E2E3AD6BDC6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\iostream">
+      <UniqueIdentifier>{89487A79-7541-99CB-9E73-7E508ACB78D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\iostream2">
+      <UniqueIdentifier>{DB59C3A8-4770-C13E-90E7-4C60FC3C92C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\iostream3">
+      <UniqueIdentifier>{DC59C3A8-4870-C13E-91E7-4C60FD3C92C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\minizip">
+      <UniqueIdentifier>{C5538D7E-31DF-FA42-3AF0-7D37A6FA5643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\puff">
+      <UniqueIdentifier>{3637FF4E-229A-8EF3-CB1F-C7A9B7615A76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\testzlib">
+      <UniqueIdentifier>{76908C9E-6289-ABF0-8BBB-907577138BFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\untgz">
+      <UniqueIdentifier>{FDFD3C2F-69BE-B865-32F9-01E39E78FD41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{84D830B1-70A5-8BBC-99BE-796485EAC04A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{65689E7C-519F-9F0D-FA8B-8510E6A11B0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="contrib\blast\blast.h">
+      <Filter>contrib\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\infback9\infback9.h">
+      <Filter>contrib\infback9</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\infback9\inffix9.h">
+      <Filter>contrib\infback9</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\infback9\inflate9.h">
+      <Filter>contrib\infback9</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\infback9\inftree9.h">
+      <Filter>contrib\infback9</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\iostream\zfstream.h">
+      <Filter>contrib\iostream</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\iostream2\zstream.h">
+      <Filter>contrib\iostream2</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\iostream3\zfstream.h">
+      <Filter>contrib\iostream3</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\minizip\crypt.h">
+      <Filter>contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\minizip\ioapi.h">
+      <Filter>contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\minizip\iowin32.h">
+      <Filter>contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\minizip\mztools.h">
+      <Filter>contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\minizip\unzip.h">
+      <Filter>contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\minizip\zip.h">
+      <Filter>contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\puff\puff.h">
+      <Filter>contrib\puff</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.h" />
+    <ClInclude Include="deflate.h" />
+    <ClInclude Include="examples\gzlog.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\zran.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="gzguts.h" />
+    <ClInclude Include="inffast.h" />
+    <ClInclude Include="inffixed.h" />
+    <ClInclude Include="inflate.h" />
+    <ClInclude Include="inftrees.h" />
+    <ClInclude Include="trees.h" />
+    <ClInclude Include="zconf.h" />
+    <ClInclude Include="zlib.h" />
+    <ClInclude Include="zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adler32.c" />
+    <ClCompile Include="compress.c" />
+    <ClCompile Include="contrib\blast\blast.c">
+      <Filter>contrib\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\infback9\infback9.c">
+      <Filter>contrib\infback9</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\infback9\inftree9.c">
+      <Filter>contrib\infback9</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\minizip\ioapi.c">
+      <Filter>contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\minizip\iowin32.c">
+      <Filter>contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\minizip\miniunz.c">
+      <Filter>contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\minizip\minizip.c">
+      <Filter>contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\minizip\mztools.c">
+      <Filter>contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\minizip\unzip.c">
+      <Filter>contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\minizip\zip.c">
+      <Filter>contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\puff\puff.c">
+      <Filter>contrib\puff</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\puff\pufftest.c">
+      <Filter>contrib\puff</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\testzlib\testzlib.c">
+      <Filter>contrib\testzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\untgz\untgz.c">
+      <Filter>contrib\untgz</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.c" />
+    <ClCompile Include="deflate.c" />
+    <ClCompile Include="examples\enough.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\fitblk.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\gun.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\gzappend.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\gzjoin.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\gzlog.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\gznorm.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\zpipe.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\zran.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="gzclose.c" />
+    <ClCompile Include="gzlib.c" />
+    <ClCompile Include="gzread.c" />
+    <ClCompile Include="gzwrite.c" />
+    <ClCompile Include="infback.c" />
+    <ClCompile Include="inffast.c" />
+    <ClCompile Include="inflate.c" />
+    <ClCompile Include="inftrees.c" />
+    <ClCompile Include="test\example.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\infcover.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\minigzip.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="trees.c" />
+    <ClCompile Include="uncompr.c" />
+    <ClCompile Include="zutil.c" />
+  </ItemGroup>
+</Project>

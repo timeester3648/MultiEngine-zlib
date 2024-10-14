@@ -13,7 +13,13 @@ void main(MultiBuild::Workspace& workspace) {
 
 	properties.files({
 		"./*.h",
-		"./*.c"
+		"./*.c",
+		"./contrib/minizip/zip.h",
+		"./contrib/minizip/zip.c",
+		"./contrib/minizip/unzip.h",
+		"./contrib/minizip/unzip.c",
+		"./contrib/minizip/mztools.h",
+		"./contrib/minizip/mztools.c"
 	});
 
 	{
